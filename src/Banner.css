@@ -1,0 +1,8 @@
+/* styles.css */
+.banner-content {
+  background-image: url("./assets/bg web.jpg");
+  background-color: #333; /* Color de fondo de respaldo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

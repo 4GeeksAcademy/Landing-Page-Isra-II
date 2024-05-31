@@ -8,9 +8,9 @@ const Gallery = () => {
       <div className="container">
         <h2>Galería</h2>
         <div className="row">
-          <VideoGall videoUrl="src/assets/Psi con Ruse Ayer.mp4" />
-          <VideoGall videoUrl="src/assets/Todo dorsos.mp4" />
-          <VideoGall videoUrl="src/assets/Harry and Bess.mp4" />
+          {galleryData.map((video) => (
+            <VideoGall videoUrl={video.videoUrl} />
+          ))}
         </div>
       </div>
     </section>

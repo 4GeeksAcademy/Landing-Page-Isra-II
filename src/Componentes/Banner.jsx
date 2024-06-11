@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Banner.css";
+import "../Styles/Banner.css";
 
 const Banner = () => {
   const [showDatePicker, setShowDatePicker] = useState(false);

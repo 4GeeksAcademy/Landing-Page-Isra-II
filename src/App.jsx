@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import NavBar from "./NavBar.jsx";
-import BodyComponent from "./BodyComponent.jsx";
+import NavBar from "./Componentes/NavBar.jsx";
+import BodyComponent from "./Componentes/BodyComponent.jsx";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { galleryData } from "./galleryData.js";
+import { galleryData } from "../galleryData.js";
 import VideoGall from "./VideoGall.jsx";
 
 const Gallery = () => {

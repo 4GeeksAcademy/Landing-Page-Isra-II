@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
-import Intro from "./Intro";
+import Intro from "../Intro";
 import Services from "./Services";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
